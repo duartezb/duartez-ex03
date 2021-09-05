@@ -11,16 +11,16 @@ import java.util.Scanner;
 public class Solution03 {
     public static void main(String[] args) {
 
-        //intro question
+        /*prompts intro message and scans into system*/
         System.out.println("What is the quote? ");
         Scanner input = new Scanner(System.in);
         String quote = input.nextLine();
 
-        //ask second question
+        /*ask second question*/
         System.out.println("Who said it? ");
         String author = input.nextLine();
 
-        //repeat back to user
+        /*repeats back to user*/
         System.out.println(author + " says, \""+ quote+"\"");
 
 
